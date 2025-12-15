@@ -1,39 +1,39 @@
-# React + Vite
+# Livia 
+This  is a little React appication to chow some challenges proposed for helping with jobs interviews.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-# Create an application 
+## Create an application 
 ```
 npm create vite@latest livia -- --template react
 ```
+To creaete this application I've used vite with template react because this stack is modern.
 
-# Run an application 
-
+## Run an application 
+To run aplication in your device you need to clone this rrepository to yor computer:
+```
+git clone https://github.com/Deotyma/livia
+```
+enter to livia
+```
+cd livia
+```
+after install all dependances:
+```
+npm i
+```
+and run application
 ```
 npm run dev
 ```
 
-# How to run tests
+## How to run tests
+I chose to use in this project also test library jest.js with Testing Library because tests are very important. It take more time in the begining but after it is easier to refactor, modify or find an error if tests are working
 ```
 npm test
 ```
-and to watch tests 
-```
-npm test --watch
-```
+
+## Others technical choses
+ - I decided to stored data locally this time because I don't know Firebase, I will add it after this chelange in auther branch
+ - This progect is little co I've dedided to import Bootstrap 5 via CDN not via npm as usual and only css without js script
+ - I decided for  this project to prioritize code readability and clarity over advanced or unnecessary features.
 
 
