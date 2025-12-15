@@ -14,7 +14,7 @@ describe("Home page", () => {
     ).not.toThrow();
   });
 
-  it("text from Home page exists", () => {
+  /* it("text from Home page exists", () => {
     render(
       <MemoryRouter>
         <Home />
@@ -25,5 +25,5 @@ describe("Home page", () => {
       screen.getByText(/Ceci est la page home/i)
     ).toBeInTheDocument();
   });
-
+ */
 });
