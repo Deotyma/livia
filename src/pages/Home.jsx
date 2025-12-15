@@ -1,9 +1,11 @@
+import { challenges } from "../data/challenges";
+import ChallengeCard from "../components/ChallengeCard";
+import Header from "../components/Header";
+
 export default function Home() {
   return (
-    <div className="container mt-5">
-      <div className="alert alert-primary text-center">
-        Ceci est la page home
-      </div>
+    <div>
+      <Header/>
     </div>
   );
 }
